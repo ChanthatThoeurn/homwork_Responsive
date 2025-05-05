@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main{
+    display: grid;
+    gap: 10px;
+    justify-content:center;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+hr{
+    border: 1px color(srgb red green blue);
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.Card{
+    max-width: 100%;
+    height:auto;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: aqua;
+    
+}
+.btr{
+    padding: 3px;
+    text-align: center;
+    background-color: gold;
+    border-radius: 4px;
+}
+/* @media (min-width: 300px){
+    .Main{
+        grid-template-rows: 1fr;
+    }
+  
+} */
